@@ -1,13 +1,13 @@
 cask "proxycast" do
-  version "0.37.0"
+  version "0.82.0"
 
   on_arm do
-    sha256 :no_check  # 发布时更新为实际 sha256
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     url "https://github.com/aiclientproxy/proxycast/releases/download/v#{version}/proxycast_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 :no_check  # 发布时更新为实际 sha256
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     url "https://github.com/aiclientproxy/proxycast/releases/download/v#{version}/proxycast_#{version}_x64.dmg"
   end
 
