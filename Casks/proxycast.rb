@@ -1,5 +1,5 @@
 cask "proxycast" do
-  version "0.82.0"
+  version "0.83.1"
 
   on_arm do
     sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
